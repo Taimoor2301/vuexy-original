@@ -20,7 +20,7 @@ import CardStatsVertical from 'src/@core/components/card-statistics/card-stats-v
 const CrmDashboard = () => {
   return (
     <ApexChartWrapper>
-      <Grid container spacing={6}>
+      <Grid container spacing={2}>
         <Grid item xs={6} sm={4} lg={2}>
           <CrmSalesWithAreaChart />
         </Grid>

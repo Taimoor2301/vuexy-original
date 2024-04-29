@@ -15,6 +15,7 @@ import HorizontalNavItems from 'src/navigation/horizontal'
 
 import VerticalAppBarContent from './components/vertical/AppBarContent'
 import HorizontalAppBarContent from './components/horizontal/AppBarContent'
+
 ////
 // ** Hook Import
 import { useSettings } from 'src/@core/hooks/useSettings'
@@ -78,7 +79,6 @@ const UserLayout = ({ children, contentHeightFixed }) => {
       })}
     >
       {children}
-
     </Layout>
   )
 }
